@@ -11,6 +11,13 @@ public abstract class Figure {
     protected float speed;
     protected float angle;
 
+    public Figure(float x, float y, float w, float h) {
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+    }
+
     public Figure(float x, float y, float w, float h, float speed, float angle) {
         this.x = x;
         this.y = y;
@@ -33,6 +40,10 @@ public abstract class Figure {
     }
 
     public void move() {
+
+    }
+
+    public void move(int widthInterval) {
 
     }
 
