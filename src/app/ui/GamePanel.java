@@ -23,7 +23,6 @@ public class GamePanel extends JPanel implements ActionListener {
     private Ball ball;
     private BrickList brickList;
     private Timer timer;
-    private Timer retryTimer;
     private Random random;
     private boolean gameOver;
     private String message;
